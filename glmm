@@ -1,0 +1,3 @@
+modelo_binegat = glmmTMB (taxa_abundancia~dist_area_urba+
+                               formacao_florest+veget_aberta_nao_florest+cobertura_veget_recuperacao+
+                               agropecuaria+pastagem+caca+(1|ambiente),family=nbinom2,data=dadosfinal)
